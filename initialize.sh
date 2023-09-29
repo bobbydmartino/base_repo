@@ -3,8 +3,7 @@
 # Get the script directory
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-# Clone the base_repo
-git clone https://github.com/bobbydmartino/base_repo.git new_project
+mkdir new_project
 cd new_project
 
 # Remove the .git folder to dissociate with the base_repo
